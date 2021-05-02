@@ -17,7 +17,7 @@ public class Calculator {
   }
 
   public double power(int a, int b) {
-    return Math.pow(a,b);
+    return Math.pow(a, b);
   }
 
   public int divide(int a, int b) throws IllegalArgumentException {

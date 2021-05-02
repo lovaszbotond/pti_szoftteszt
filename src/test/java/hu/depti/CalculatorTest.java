@@ -58,6 +58,6 @@ public class CalculatorTest {
   @Test
   @DisplayName("Simple power should work")
   public void testPower() {
-    assertEquals(4,calculator.power(2,2),"Regular power should work");
+    assertEquals(4, calculator.power(2, 2), "Regular power should work");
   }
 }
