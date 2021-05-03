@@ -32,3 +32,23 @@ given : Elindult az applikáció
 when: Meghívódik a testDivide metódus az a = 20 és b = 0 , megadott paraméterekkel. 
 
 then: A visszakapott eredmény: Multiple with zero should be zero
+
+---------------------------
+
+Scenario 3/TC1:
+
+given : Elindult az applikáció
+
+when: Meghívódik a testSquareRoot metódus az a = 16, megadott paraméterrel. 
+
+then: A visszakapott eredmény: 4
+
+---------------------------
+
+Scenario 3/TC2:
+
+given : Elindult az applikáció
+
+when: Meghívódik a testModulo metódus az a = 7 és a b = 6, megadott paraméterekkel. 
+
+then: A visszakapott eredmény: 1
