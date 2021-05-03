@@ -63,7 +63,7 @@ public class CalculatorTest {
 
   @Test
   @DisplayName("Simple modulo should work")
-  public void testModulo(){
-    assertEquals(1,calculator.modulo(7,6),"Regular modulo should work");
+  public void testModulo() {
+    assertEquals(1, calculator.modulo(7, 6), "Regular modulo should work");
   }
 }
