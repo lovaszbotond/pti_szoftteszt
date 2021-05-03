@@ -60,4 +60,10 @@ public class CalculatorTest {
   public void testPower() {
     assertEquals(4, calculator.power(2, 2), "Regular power should work");
   }
+
+  @Test
+  @DisplayName("Simple modulo should work")
+  public void testModulo() {
+    assertEquals(1, calculator.modulo(7, 6), "Regular modulo should work");
+  }
 }
