@@ -1,0 +1,34 @@
+Történet: Számológép
+Cél: Számolás
+Azért, hogy felhasználóként, tökéletesen tudjak, papír nélkül számolni.
+
+---------------------------
+
+Scenario 1:
+
+given: Elindult az applikáció
+
+when: Meghívódik a testPower metódus az a = 2 és a b = 2 , megadott paraméterekkel.
+
+then: A visszakapott eredmény: 4
+
+---------------------------
+
+Scenario 2/TC1:
+
+given : Elindult az applikáció
+
+when: Meghívódik a testDivide metódus az a = 20 és b = 5 , megadott paraméterekkel. 
+
+then: A visszakapott eredmény: 4
+
+
+---------------------------
+
+Scenario 2/TC2:
+
+given : Elindult az applikáció
+
+when: Meghívódik a testDivide metódus az a = 20 és b = 0 , megadott paraméterekkel. 
+
+then: A visszakapott eredmény: Multiple with zero should be zero
