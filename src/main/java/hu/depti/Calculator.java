@@ -30,4 +30,8 @@ public class Calculator {
   public int modulo(int a, int b) {
     return a % b;
   }
+
+  public double squareRoot(int a) {
+    return Math.sqrt(a);
+  }
 }

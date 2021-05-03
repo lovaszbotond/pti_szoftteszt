@@ -66,4 +66,10 @@ public class CalculatorTest {
   public void testModulo() {
     assertEquals(1, calculator.modulo(7, 6), "Regular modulo should work");
   }
+
+  @Test
+  @DisplayName("Simple square root should work")
+  public void testSquareRoot() {
+    assertEquals(4, calculator.squareRoot(16), "Regular square root should work");
+  }
 }
