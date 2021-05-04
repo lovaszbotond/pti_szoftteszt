@@ -72,4 +72,16 @@ public class CalculatorTest {
   public void testSquareRoot() {
     assertEquals(4, calculator.squareRoot(16), "Regular square root should work");
   }
+
+  @Test
+  @DisplayName("Simple absolute value should work")
+  public void testAbsolute() {
+    assertEquals(5, calculator.absolute(-5), "Regular absolute value should work");
+  }
+
+  @Test
+  @DisplayName("Simple common logarithm should work")
+  public void testCommonLog() {
+    assertEquals(3, calculator.commonLog(1000), "Regular common logarithm should work");
+  }
 }

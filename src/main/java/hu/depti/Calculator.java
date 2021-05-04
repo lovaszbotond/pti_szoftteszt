@@ -38,4 +38,12 @@ public class Calculator {
   public double squareRoot(int a) {
     return Math.sqrt(a);
   }
+
+  public int absolute(int a) {
+    return Math.abs(a);
+  }
+
+  public double commonLog(int a) {
+    return Math.log10(a);
+  }
 }
