@@ -52,3 +52,23 @@ given : Elindult az applikáció
 when: Meghívódik a testModulo metódus az a = 7 és a b = 6, megadott paraméterekkel. 
 
 then: A visszakapott eredmény: 1
+
+---------------------------
+
+Scenario 4/TC1:
+
+given : Elindult az applikáció
+
+when: Meghívódik a testAbsolute metódus az a = -5, megadott paraméterrel.
+
+then: A visszakapott eredmény: 5
+
+---------------------------
+
+Scenario 4/TC2:
+
+given : Elindult az applikáció
+
+when: Meghívódik a testCommonLog metódus az a = 1000, megadott paraméterrel.
+
+then: A visszakapott eredmény: 3
